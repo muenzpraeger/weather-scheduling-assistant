@@ -62,4 +62,3 @@ For more details about how to extend the component, see the comments in the code
 
 ## Restrictions
 The component shows data for locations in the U.S. and Canada only. The user interface is available in English only.
- <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
