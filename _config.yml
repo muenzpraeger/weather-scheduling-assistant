@@ -1,2 +1,1 @@
 theme: jekyll-theme-cayman
-<%= favicon_tag 'https://theweathercompany.github.io/weather-scheduling-assistant/favicon.ico' %>
