@@ -36,7 +36,6 @@ Property | Description
 ------------ | -------------
 Units | Default type of units to display; possible values: English/metric
 Appointment date field | Which fields to populate when a user selects a date and time in the component. Possible values: Arrival Window/Scheduled. If no value is specified, both the Arrival Window and Scheduled fields are populated. 
-
 3. Grant users the required permissions for the component. In **Setup > Permission Sets**, assign users the WxSched permission set [see Assign a Permission Set to Multiple Users](https://help.salesforce.com/articleView?id=perm_sets_mass_assign.htm). 
 4. Override the default Service Appointments page with a custom Visualforce page that includes the component [see Override Standard Buttons and Tab Home Pages](https://help.salesforce.com/articleView?err=1&id=links_customize_override.htm):
   - In Setup > Object Manager, click Service Appointment and click Buttons, Links, and Actions.
