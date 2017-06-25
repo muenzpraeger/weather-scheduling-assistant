@@ -10,7 +10,7 @@ For a more detailed forecast, links are provided to a full 10-day forecast on We
 
 You can download the unmanaged component from [GitHub](https://github.com/TheWeatherCompany/weather-scheduling-assistant). To set it up, add the API key from your paid data package subscription from The Weather Company and customize per your needs. Alternatively, you can use the code as a sample to understand how the API works and build your own standalone app.
 
-*Tip: The component is shipped with mock data so you can try it out before you obtain an API key.*
+*Tip*: The component is shipped with mock data so you can try it out before you obtain an API key.
 
 ## Obtaining an API Key 
 By purchasing a data package and access key from The Weather Company, you can include any of the following data streams into the component:
