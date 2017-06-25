@@ -27,7 +27,7 @@ The component is supported for all Salesforce editions. Lightning Experience mus
 The component is supported on all browsers that are supported for Lightning Experience (see [Supported Browsers for Lightning Experience](https://help.salesforce.com/articleView?id=getstart_browsers_sfx.htm) in the Salesforce documentation).
 
 ### Setting Up the Component
-**Prerequisite:** Ensure that Field Service Lightning and Lightning Experience are enabled (see [Enable Field Service Lightning](https://help.salesforce.com/articleView?id=fs_enable.htm) and [Enable Lightning Experience](https://help.salesforce.com/articleView?id=lex_enable_intro.htm) in the Salesforce documentation). 
+*Prerequisite:* Ensure that Field Service Lightning and Lightning Experience are enabled (see [Enable Field Service Lightning](https://help.salesforce.com/articleView?id=fs_enable.htm) and [Enable Lightning Experience](https://help.salesforce.com/articleView?id=lex_enable_intro.htm) in the Salesforce documentation). 
 
 To set up the component:
 1. Get the component from [GitHub](https://github.com/TheWeatherCompany/weather-scheduling-assistant) and deploy it to Salesforce.
