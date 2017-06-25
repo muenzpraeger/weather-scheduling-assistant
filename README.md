@@ -33,15 +33,15 @@ To set up the component:
 1. Get the component from [GitHub](https://github.com/TheWeatherCompany/weather-scheduling-assistant) and deploy it to Salesforce.
 2. *Optional:* Change the default values of the component properties in **Setup > Custom Settings.**
 
-  | Property   | Description   |
-  | --- |---|
-  | Units | Default type of units to display; possible values: English/metric|
-  | Appointment date field | Which fields to populate when a user selects a date and time in the component. Possible values: Arrival Window/Scheduled. If no value is specified, both the Arrival Window and Scheduled fields are populated.| 
+	| Property   | Description   |
+	| --- |---|
+	| Units | Default type of units to display; possible values: English/metric|
+	| Appointment date field | Which fields to populate when a user selects a date and time in the component. Possible values: Arrival Window/Scheduled. If no value is specified, both the Arrival Window and Scheduled fields are populated.| 
 
 3. Grant users the required permissions for the component. In **Setup > Permission Sets**, assign users the WxSched permission set (see [Assign a Permission Set to Multiple Users](https://help.salesforce.com/articleView?id=perm_sets_mass_assign.htm)). 
 4. Override the default Service Appointments page with a custom Visualforce page that includes the component (see [Override Standard Buttons and Tab Home Pages](https://help.salesforce.com/articleView?err=1&id=links_customize_override.htm)):
-    1. In **Setup > Object Manager**, click Service Appointment and click Buttons, Links, and Actions.
-    2. Edit the New and Edit items to override the default Salesforce page with the ServiceAppointmentRecordEdit Visualforce page. 
+	1. In **Setup > Object Manager**, click Service Appointment and click Buttons, Links, and Actions.
+	2. Edit the New and Edit items to override the default Salesforce page with the ServiceAppointmentRecordEdit Visualforce page. 
 5. In **Setup > Remote Site Settings**, add an entry for the URL of the custom form, in the format https://<i></i>*MyDomain_Name*--c.*Instance*.visual.force.com (see [Find your Instance](https://help.salesforce.com/articleView?id=000002889&language=en_US&type=1)). 
 
 The component is now running with mock data.
